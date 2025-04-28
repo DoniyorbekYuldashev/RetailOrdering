@@ -1,0 +1,43 @@
+# Python
+
+**pycache**/ \*.py\[cod\] \*$py.class \*.so
+
+# Virtual environment
+
+venv/ .env env/
+
+# IDE and editor files
+
+.idea/ .vscode/ \*.sublime-workspace \*.sublime-project
+
+# OS generated files
+
+.DS_Store Thumbs.db
+
+# Logs
+
+\*.log logs/
+
+# Database
+
+\*.sqlite3 \*.db
+
+# Docker
+
+docker-compose.yml
+
+# Testing
+
+.coverage coverage.xml \*.cover \*.pytest_cache/
+
+# Build and distribution
+
+build/ dist/ \*.egg-info/ \*.whl
+
+# Environment variables
+
+.env.local .env.development.local .env.test.local .env.production.local
+
+# Miscellaneous
+
+\*.bak \*.swp \*\~
